@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7883E8287785CF005C5D26 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883E7287785CF005C5D26 /* Word.swift */; };
+		2C7883ED28778708005C5D26 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7883EC28778708005C5D26 /* Merriweather-Bold.ttf */; };
+		2C7883EF28778712005C5D26 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7883EE28778712005C5D26 /* Merriweather-Light.ttf */; };
+		2C7883F128778723005C5D26 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7883F028778723005C5D26 /* Merriweather-Regular.ttf */; };
+		2C7883F32877872F005C5D26 /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7883F22877872F005C5D26 /* Merriweather-LightItalic.ttf */; };
+		2C7883F528778962005C5D26 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883F428778962005C5D26 /* Constants.swift */; };
+		2C7883F728778992005C5D26 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883F628778992005C5D26 /* UIColor+Ext.swift */; };
+		2C7883F928778ACA005C5D26 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883F828778ACA005C5D26 /* UIHelper.swift */; };
+		2C7883FB28778B0E005C5D26 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883FA28778B0E005C5D26 /* HeaderView.swift */; };
+		2C7883FE28778B39005C5D26 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883FD28778B39005C5D26 /* RoundedCornerView.swift */; };
+		2C78840128778B72005C5D26 /* WDWordTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78840028778B72005C5D26 /* WDWordTitleLabel.swift */; };
+		2C78840328778B7E005C5D26 /* WDBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78840228778B7E005C5D26 /* WDBodyLabel.swift */; };
+		2C78840528778B8B005C5D26 /* WDSecondaryWordLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78840428778B8B005C5D26 /* WDSecondaryWordLabel.swift */; };
+		2C78840828778BA9005C5D26 /* WDSymbolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78840728778BA9005C5D26 /* WDSymbolButton.swift */; };
+		2C78840A28778BCC005C5D26 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78840928778BCC005C5D26 /* SearchView.swift */; };
+		2C78840C28778D02005C5D26 /* WordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78840B28778D02005C5D26 /* WordDetailViewController.swift */; };
+		2C78840E28778D1C005C5D26 /* FetchingDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78840D28778D1C005C5D26 /* FetchingDataViewController.swift */; };
+		2C78841028778D38005C5D26 /* FavoriteWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78840F28778D38005C5D26 /* FavoriteWordsViewController.swift */; };
+		2C78841228778D54005C5D26 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78841128778D54005C5D26 /* NetworkManager.swift */; };
+		2C78841428778D5F005C5D26 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78841328778D5F005C5D26 /* ErrorManager.swift */; };
+		2C78841928779288005C5D26 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78841828779288005C5D26 /* WordView.swift */; };
+		2C78841C2877935B005C5D26 /* WDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78841B2877935B005C5D26 /* WDTableViewCell.swift */; };
 		2CBCB4B8285BE56E00DA1A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBCB4B7285BE56E00DA1A56 /* AppDelegate.swift */; };
 		2CBCB4BA285BE56E00DA1A56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBCB4B9285BE56E00DA1A56 /* SceneDelegate.swift */; };
 		2CBCB4BC285BE56E00DA1A56 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBCB4BB285BE56E00DA1A56 /* MainViewController.swift */; };
@@ -15,6 +37,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C7883E7287785CF005C5D26 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		2C7883EC28778708005C5D26 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		2C7883EE28778712005C5D26 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		2C7883F028778723005C5D26 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		2C7883F22877872F005C5D26 /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
+		2C7883F428778962005C5D26 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2C7883F628778992005C5D26 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		2C7883F828778ACA005C5D26 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		2C7883FA28778B0E005C5D26 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2C7883FD28778B39005C5D26 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		2C78840028778B72005C5D26 /* WDWordTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDWordTitleLabel.swift; sourceTree = "<group>"; };
+		2C78840228778B7E005C5D26 /* WDBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDBodyLabel.swift; sourceTree = "<group>"; };
+		2C78840428778B8B005C5D26 /* WDSecondaryWordLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDSecondaryWordLabel.swift; sourceTree = "<group>"; };
+		2C78840728778BA9005C5D26 /* WDSymbolButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDSymbolButton.swift; sourceTree = "<group>"; };
+		2C78840928778BCC005C5D26 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		2C78840B28778D02005C5D26 /* WordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailViewController.swift; sourceTree = "<group>"; };
+		2C78840D28778D1C005C5D26 /* FetchingDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingDataViewController.swift; sourceTree = "<group>"; };
+		2C78840F28778D38005C5D26 /* FavoriteWordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteWordsViewController.swift; sourceTree = "<group>"; };
+		2C78841128778D54005C5D26 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2C78841328778D5F005C5D26 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		2C78841828779288005C5D26 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		2C78841B2877935B005C5D26 /* WDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDTableViewCell.swift; sourceTree = "<group>"; };
 		2CBCB4B4285BE56E00DA1A56 /* Werddinary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werddinary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBCB4B7285BE56E00DA1A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CBCB4B9285BE56E00DA1A56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +79,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C7883E228778572005C5D26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C7883E7287785CF005C5D26 /* Word.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C7883E328778577005C5D26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C78841A28779347005C5D26 /* CustomCells */,
+				2C7883FC28778B15005C5D26 /* CustomViews */,
+				2C7883FF28778B59005C5D26 /* Labels */,
+				2C78840628778B8E005C5D26 /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C7883E428778580005C5D26 /* UIHelper+Ext */ = {
+			isa = PBXGroup;
+			children = (
+				2C7883E9287786DE005C5D26 /* MerriweatherFonts */,
+				2C7883F428778962005C5D26 /* Constants.swift */,
+				2C7883F628778992005C5D26 /* UIColor+Ext.swift */,
+				2C7883F828778ACA005C5D26 /* UIHelper.swift */,
+			);
+			path = "UIHelper+Ext";
+			sourceTree = "<group>";
+		};
+		2C7883E52877858C005C5D26 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2C78841128778D54005C5D26 /* NetworkManager.swift */,
+				2C78841328778D5F005C5D26 /* ErrorManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2C7883E6287785B3005C5D26 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C78841528778D75005C5D26 /* Screens */,
+				2C78840D28778D1C005C5D26 /* FetchingDataViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2C7883E9287786DE005C5D26 /* MerriweatherFonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C7883F028778723005C5D26 /* Merriweather-Regular.ttf */,
+				2C7883EE28778712005C5D26 /* Merriweather-Light.ttf */,
+				2C7883F22877872F005C5D26 /* Merriweather-LightItalic.ttf */,
+				2C7883EC28778708005C5D26 /* Merriweather-Bold.ttf */,
+			);
+			path = MerriweatherFonts;
+			sourceTree = "<group>";
+		};
+		2C7883FC28778B15005C5D26 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				2C7883FA28778B0E005C5D26 /* HeaderView.swift */,
+				2C78841828779288005C5D26 /* WordView.swift */,
+				2C7883FD28778B39005C5D26 /* RoundedCornerView.swift */,
+				2C78840928778BCC005C5D26 /* SearchView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		2C7883FF28778B59005C5D26 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				2C78840028778B72005C5D26 /* WDWordTitleLabel.swift */,
+				2C78840228778B7E005C5D26 /* WDBodyLabel.swift */,
+				2C78840428778B8B005C5D26 /* WDSecondaryWordLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		2C78840628778B8E005C5D26 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2C78840728778BA9005C5D26 /* WDSymbolButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		2C78841528778D75005C5D26 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2CBCB4BB285BE56E00DA1A56 /* MainViewController.swift */,
+				2C78840B28778D02005C5D26 /* WordDetailViewController.swift */,
+				2C78840F28778D38005C5D26 /* FavoriteWordsViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2C78841A28779347005C5D26 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				2C78841B2877935B005C5D26 /* WDTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
 		2CBCB4AB285BE56E00DA1A56 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +204,12 @@
 		2CBCB4B6285BE56E00DA1A56 /* Werddinary */ = {
 			isa = PBXGroup;
 			children = (
+				2C7883E228778572005C5D26 /* Models */,
+				2C7883E328778577005C5D26 /* Views */,
+				2C7883E6287785B3005C5D26 /* ViewControllers */,
+				2C7883E428778580005C5D26 /* UIHelper+Ext */,
+				2C7883E52877858C005C5D26 /* Managers */,
 				2CBCB4CB285BE5B200DA1A56 /* Resources */,
-				2CBCB4BB285BE56E00DA1A56 /* MainViewController.swift */,
 			);
 			path = Werddinary;
 			sourceTree = "<group>";
@@ -132,6 +286,10 @@
 			files = (
 				2CBCB4C4285BE56E00DA1A56 /* LaunchScreen.storyboard in Resources */,
 				2CBCB4C1285BE56E00DA1A56 /* Assets.xcassets in Resources */,
+				2C7883F32877872F005C5D26 /* Merriweather-LightItalic.ttf in Resources */,
+				2C7883ED28778708005C5D26 /* Merriweather-Bold.ttf in Resources */,
+				2C7883F128778723005C5D26 /* Merriweather-Regular.ttf in Resources */,
+				2C7883EF28778712005C5D26 /* Merriweather-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +300,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C78841228778D54005C5D26 /* NetworkManager.swift in Sources */,
+				2C78840528778B8B005C5D26 /* WDSecondaryWordLabel.swift in Sources */,
+				2C7883F528778962005C5D26 /* Constants.swift in Sources */,
 				2CBCB4BC285BE56E00DA1A56 /* MainViewController.swift in Sources */,
+				2C78841C2877935B005C5D26 /* WDTableViewCell.swift in Sources */,
+				2C7883E8287785CF005C5D26 /* Word.swift in Sources */,
+				2C7883F728778992005C5D26 /* UIColor+Ext.swift in Sources */,
+				2C78840328778B7E005C5D26 /* WDBodyLabel.swift in Sources */,
 				2CBCB4B8285BE56E00DA1A56 /* AppDelegate.swift in Sources */,
+				2C7883FE28778B39005C5D26 /* RoundedCornerView.swift in Sources */,
+				2C78840E28778D1C005C5D26 /* FetchingDataViewController.swift in Sources */,
+				2C78840828778BA9005C5D26 /* WDSymbolButton.swift in Sources */,
+				2C78840128778B72005C5D26 /* WDWordTitleLabel.swift in Sources */,
+				2C78841428778D5F005C5D26 /* ErrorManager.swift in Sources */,
+				2C78840A28778BCC005C5D26 /* SearchView.swift in Sources */,
+				2C78841028778D38005C5D26 /* FavoriteWordsViewController.swift in Sources */,
+				2C78840C28778D02005C5D26 /* WordDetailViewController.swift in Sources */,
+				2C78841928779288005C5D26 /* WordView.swift in Sources */,
 				2CBCB4BA285BE56E00DA1A56 /* SceneDelegate.swift in Sources */,
+				2C7883F928778ACA005C5D26 /* UIHelper.swift in Sources */,
+				2C7883FB28778B0E005C5D26 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
