@@ -104,7 +104,6 @@
 				2C7883E9287786DE005C5D26 /* MerriweatherFonts */,
 				2C7883F628778992005C5D26 /* UIColor+Ext.swift */,
 				2C7883F828778ACA005C5D26 /* UIHelper.swift */,
-				2C6CF66B28779F460094986A /* Constants.swift */,
 			);
 			path = "UIHelper+Ext";
 			sourceTree = "<group>";
@@ -209,6 +208,7 @@
 				2C7883E6287785B3005C5D26 /* ViewControllers */,
 				2C7883E428778580005C5D26 /* UIHelper+Ext */,
 				2C7883E52877858C005C5D26 /* Managers */,
+				2C6CF66B28779F460094986A /* Constants.swift */,
 				2CBCB4CB285BE5B200DA1A56 /* Resources */,
 			);
 			path = Werddinary;
