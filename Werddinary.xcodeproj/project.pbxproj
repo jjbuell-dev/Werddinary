@@ -12,7 +12,6 @@
 		2C7883EF28778712005C5D26 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7883EE28778712005C5D26 /* Merriweather-Light.ttf */; };
 		2C7883F128778723005C5D26 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7883F028778723005C5D26 /* Merriweather-Regular.ttf */; };
 		2C7883F32877872F005C5D26 /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7883F22877872F005C5D26 /* Merriweather-LightItalic.ttf */; };
-		2C7883F528778962005C5D26 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883F428778962005C5D26 /* Constants.swift */; };
 		2C7883F728778992005C5D26 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883F628778992005C5D26 /* UIColor+Ext.swift */; };
 		2C7883F928778ACA005C5D26 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883F828778ACA005C5D26 /* UIHelper.swift */; };
 		2C7883FB28778B0E005C5D26 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883FA28778B0E005C5D26 /* HeaderView.swift */; };
@@ -43,7 +42,6 @@
 		2C7883EE28778712005C5D26 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
 		2C7883F028778723005C5D26 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
 		2C7883F22877872F005C5D26 /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
-		2C7883F428778962005C5D26 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2C7883F628778992005C5D26 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		2C7883F828778ACA005C5D26 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		2C7883FA28778B0E005C5D26 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				2C7883E9287786DE005C5D26 /* MerriweatherFonts */,
-				2C7883F428778962005C5D26 /* Constants.swift */,
 				2C7883F628778992005C5D26 /* UIColor+Ext.swift */,
 				2C7883F828778ACA005C5D26 /* UIHelper.swift */,
 				2CB713DC28779D6400AB372B /* Constants.swift */,
@@ -306,7 +303,6 @@
 				2C78841228778D54005C5D26 /* NetworkManager.swift in Sources */,
 				2CB713DD28779D6400AB372B /* Constants.swift in Sources */,
 				2C78840528778B8B005C5D26 /* WDSecondaryWordLabel.swift in Sources */,
-				2C7883F528778962005C5D26 /* Constants.swift in Sources */,
 				2CBCB4BC285BE56E00DA1A56 /* MainViewController.swift in Sources */,
 				2C78841C2877935B005C5D26 /* WDTableViewCell.swift in Sources */,
 				2C7883E8287785CF005C5D26 /* Word.swift in Sources */,
