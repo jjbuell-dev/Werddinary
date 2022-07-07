@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6CF66C28779F460094986A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CF66B28779F460094986A /* Constants.swift */; };
 		2C7883E8287785CF005C5D26 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7883E7287785CF005C5D26 /* Word.swift */; };
 		2C7883ED28778708005C5D26 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7883EC28778708005C5D26 /* Merriweather-Bold.ttf */; };
 		2C7883EF28778712005C5D26 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7883EE28778712005C5D26 /* Merriweather-Light.ttf */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C6CF66B28779F460094986A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2C7883E7287785CF005C5D26 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		2C7883EC28778708005C5D26 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
 		2C7883EE28778712005C5D26 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				2C7883E9287786DE005C5D26 /* MerriweatherFonts */,
 				2C7883F628778992005C5D26 /* UIColor+Ext.swift */,
 				2C7883F828778ACA005C5D26 /* UIHelper.swift */,
+				2C6CF66B28779F460094986A /* Constants.swift */,
 			);
 			path = "UIHelper+Ext";
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				2C7883FE28778B39005C5D26 /* RoundedCornerView.swift in Sources */,
 				2C78840E28778D1C005C5D26 /* FetchingDataViewController.swift in Sources */,
 				2C78840828778BA9005C5D26 /* WDSymbolButton.swift in Sources */,
+				2C6CF66C28779F460094986A /* Constants.swift in Sources */,
 				2C78840128778B72005C5D26 /* WDWordTitleLabel.swift in Sources */,
 				2C78841428778D5F005C5D26 /* ErrorManager.swift in Sources */,
 				2C78840A28778BCC005C5D26 /* SearchView.swift in Sources */,
