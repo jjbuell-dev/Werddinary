@@ -29,6 +29,7 @@
 		2C78841428778D5F005C5D26 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78841328778D5F005C5D26 /* ErrorManager.swift */; };
 		2C78841928779288005C5D26 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78841828779288005C5D26 /* WordView.swift */; };
 		2C78841C2877935B005C5D26 /* WDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78841B2877935B005C5D26 /* WDTableViewCell.swift */; };
+		2CB713DD28779D6400AB372B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB713DC28779D6400AB372B /* Constants.swift */; };
 		2CBCB4B8285BE56E00DA1A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBCB4B7285BE56E00DA1A56 /* AppDelegate.swift */; };
 		2CBCB4BA285BE56E00DA1A56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBCB4B9285BE56E00DA1A56 /* SceneDelegate.swift */; };
 		2CBCB4BC285BE56E00DA1A56 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBCB4BB285BE56E00DA1A56 /* MainViewController.swift */; };
@@ -59,6 +60,7 @@
 		2C78841328778D5F005C5D26 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
 		2C78841828779288005C5D26 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 		2C78841B2877935B005C5D26 /* WDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDTableViewCell.swift; sourceTree = "<group>"; };
+		2CB713DC28779D6400AB372B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2CBCB4B4285BE56E00DA1A56 /* Werddinary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werddinary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBCB4B7285BE56E00DA1A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CBCB4B9285BE56E00DA1A56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				2C7883F428778962005C5D26 /* Constants.swift */,
 				2C7883F628778992005C5D26 /* UIColor+Ext.swift */,
 				2C7883F828778ACA005C5D26 /* UIHelper.swift */,
+				2CB713DC28779D6400AB372B /* Constants.swift */,
 			);
 			path = "UIHelper+Ext";
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C78841228778D54005C5D26 /* NetworkManager.swift in Sources */,
+				2CB713DD28779D6400AB372B /* Constants.swift in Sources */,
 				2C78840528778B8B005C5D26 /* WDSecondaryWordLabel.swift in Sources */,
 				2C7883F528778962005C5D26 /* Constants.swift in Sources */,
 				2CBCB4BC285BE56E00DA1A56 /* MainViewController.swift in Sources */,
